@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="" />
+    <script>
+      function submitit() {
+        let sam = "Sucessfully Submitted Query";
+        alert(sam);
+      }
+    </script>
+    <style>
+      #nav {
+        background-color: skyblue;
+
+        text-align: right;
+        font-size: 35px;
+        margin-bottom: 2%;
+      }
+      header {
+        text-align: center;
+      }
+      h1 {
+        font-size: 50px;
+        color: saddlebrown;
+      }
+      #p {
+        font-size: 20px;
+      }
+      input[type="text"],
+      [type="number"] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid red;
+        border-radius: 4px;
+      }
+      #ta {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid red;
+        border-radius: 4px;
+      }
+      #foms {
+        margin: auto;
+        width: 30%;
+      }
+      footer {
+        margin-top: 30px;
+        text-align: center;
+        font-size: 25px;
+      }
+      button {
+        background-color:red; /* Green */
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        margin: 4px 2px;
+        width:100%
+      }
+    </style>
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <nav id="logo">
+      <img
+        src="/thinksys.png"
+        alt="thinksysimg"
+        srcset=""
+        style="width: 250px"
+      /><br />
+    </nav>
+    <nav id="nav">
+      <a href="/home.html">HOME</a> &nbsp
+      <a href="/login.html">LogIn</a> &nbsp
+      <a href="/aboutus.html">About Us</a> &nbsp
+      <a href="/contactus.html">Contact Us</a> &nbsp
+    </nav>
+    <section>
+      <header>
+        <h1>Contact Us</h1>
+        <p id="p">
+          You can Enter Your Details and Don't Forgot to submit Your Details,
+          <br />
+          So that we can easily reach to you
+        </p>
+      </header>
+      <div id="foms">
+        <form action="">
+          <input type="text" name="" placeholder="Name" /><br />
+          <input type="text" name="" placeholder="Email" /><br />
+          <input type="number" name="" placeholder="Contact Number" /><br />
+          <textarea
+            id="ta"
+            name="Query"
+            placeholder="Plzz Enter Your Query"
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea
+          ><br />
+          <button onclick="submitit()">Submit</button>
+        </form>
+      </div>
+    </section>
+    <footer>&copy; ThinkSys 2020 All Rights are Reserved</footer>
+  </body>
+</html>
